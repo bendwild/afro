@@ -7,7 +7,7 @@ const CustomNavbar: QuartzComponent = () => {
         <div className="nav-logo">
           <a href="/">
             <img
-              src="https://raw.githubusercontent.com/bendwild/afromedica/v4/content/Extra/Images/afromedica%20(6).png"
+              src="https://raw.githubusercontent.com/bendwild/afro/v4/content/Extra/Images/afromedica%20(6).png"
               alt="AfroMedica Logo"
             />
           </a>
