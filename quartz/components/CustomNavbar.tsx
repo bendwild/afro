@@ -20,9 +20,11 @@ const CustomNavbar: QuartzComponent = () => {
           <li><a href="/en/team" className="nav-link">Team</a></li>
           <li><a href="/en/contact" className="nav-link">Contact</a></li>
         </ul>
-        <div className="language-switcher">
-          <a href="/en/" className="lang-link">EN</a>
-          <a href="/fr/" className="lang-link">FR</a>
+        <div className="language-dropdown">
+          <button className="dropdown-toggle">🌐 Language ▾</button>
+          <div className="dropdown-menu">
+          <a href="/en/" className="dropdown-link">🇬🇧 English</a>
+          <a href="/fr/" className="dropdown-link">🇫🇷 Français</a>
         </div>
       </div>
     </nav>
