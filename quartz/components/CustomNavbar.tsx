@@ -1,3 +1,5 @@
+import { QuartzComponent, QuartzComponentConstructor } from "../types"
+
 const basePath = "/afro"
 
 const CustomNavbar: QuartzComponent = () => {
@@ -23,3 +25,5 @@ const CustomNavbar: QuartzComponent = () => {
     </nav>
   )
 }
+
+export default CustomNavbar satisfies QuartzComponentConstructor
