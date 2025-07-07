@@ -1,5 +1,4 @@
 import { QuartzComponent, QuartzComponentConstructor } from "../types"
-import "./CustomNavbar.css"
 
 const CustomNavbar: QuartzComponent = () => {
   return (

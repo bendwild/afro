@@ -1,3 +1,58 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// === Custom Navbar Styles ===
+.main-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  background-color: var(--gray-0);
+  border-bottom: 1px solid var(--gray-3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+
+  padding: 0.75rem 0;  // remove side padding so logo aligns with content grid
+  font-family: 'Schibsted Grotesk', var(--font-header), sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;  // apply inner padding here to match rest of layout
+}
+
+.nav-logo img {
+  height: 42px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 2rem;              // more space between links
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--gray-9);
+  font-weight: 600;
+  font-size: 1.1rem;       // larger text
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+// === Page Content Adjustment ===
+main, .page {
+  padding-top: 4.5rem;
+}
